@@ -1,9 +1,7 @@
 public class Milch extends ZutatDecorator{
 
-    Getraenk getraenk;
-
     public Milch(Getraenk getraenk) {
-        this.getraenk = getraenk;
+        super(getraenk);
     }
 
     public String getBeschreibung() {
